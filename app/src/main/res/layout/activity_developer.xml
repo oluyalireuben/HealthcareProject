@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/holo_orange_dark"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Developer"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView2"
+        android:textSize="40dp"
+        android:textColor="@color/yellowLight"
+        android:textAlignment="center"
+        android:autoText="true"
+      />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="282dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/oluyali" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="OLUYALI REUBEN"
+        android:textColor="@color/yellowLight"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="oluyalireuben1@gmail.com \n\nCall me: 0792744763"
+        android:textColor="@color/yellowLight"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonbackagain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:text="Back"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
