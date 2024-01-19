@@ -6,18 +6,12 @@ for users. The contemporary healthcare landscape is marked by a growing demand f
 
 solutions that streamline service delivery, enhance information access, and improve overall 
 
-patient experiences. The proposed application serves as a comprehensive platform offering users 
+patient experiences. The application serves as a comprehensive platform offering users 
 
 the ability to access lab test packages, order medicines, and book appointments with specialist 
 
 doctors. It also provides valuable health-related content through the "Health Articles" section.
 
-
-## App Features
-- Multiple choice option
-- Timer features
-- Random features
-- Time Limited
 
 ## Technologies Used
 - Android Studio
@@ -64,16 +58,11 @@ Clone the repository and open it in Android Studio.
 
 Review the Firebase documentation and any project-specific instructions for additional steps or considerations.
 
-8. **Finally, Run the app on an emulator or physical device.**
-
-
-## Roadmap
-- Implement additional difficulty levels
-- Enhance UI/UX with more engaging visuals
+8. **Finally, Run the app on an emulator or physical device
 
 
 ## Contributing
-Feel free to contribute to the development of Math Game by opening issues and pull requests.
+Feel free to contribute to the development of the project by opening issues and pull requests.
 
 
 ## Contact Developer
