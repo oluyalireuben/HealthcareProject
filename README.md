@@ -1,12 +1,16 @@
 # `Healthcare Project`
-## Description About the math Game.
-Educational math game for grades 4-6, fostering a fun learning environment. Adaptive quizzes cover primary math topics. Engaging UI with vibrant visuals. Reinforce fundamental principles in an interactive way.
+## Description About the project
+This Healthcare Application is aimed at revolutionizing healthcare accessibility and convenience 
 
-## How the Game works
-After successful registration and Login to the app, User chooses the task to perform on the main dashboard. After task selection, 
-User has 30 seconds timer running, user has to solve maximum problems in
-30 seconds. The score is recorded.  <br>
-User can re-do the quiz again or Exit the App. <br>
+for users. The contemporary healthcare landscape is marked by a growing demand for digital 
+
+solutions that streamline service delivery, enhance information access, and improve overall 
+
+patient experiences. The proposed application serves as a comprehensive platform offering users 
+
+the ability to access lab test packages, order medicines, and book appointments with specialist 
+
+doctors. It also provides valuable health-related content through the "Health Articles" section.
 
 
 ## App Features
@@ -20,7 +24,7 @@ User can re-do the quiz again or Exit the App. <br>
 - Android XML
 - Android 
 - Firebase
-- Kotlin
+- Java
 
 
 ## Dependencies
@@ -28,7 +32,7 @@ User can re-do the quiz again or Exit the App. <br>
 
 ## Usage
 Clone the repository and open it in Android Studio.  
-https://github.com/oluyalireuben/MathMinds-Game-firebase-
+
 
 
 ## Setup your database
