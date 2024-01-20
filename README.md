@@ -50,7 +50,7 @@ Clone the repository and open it in Android Studio.
 
 Review the Firebase documentation and any project-specific instructions for additional steps or considerations.
 
-8. **Finally, Run the app on an emulator or physical device
+8. **Finally, Run the app on an emulator or physical device**
 
 
 ## Contributing
