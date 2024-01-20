@@ -22,9 +22,6 @@ doctors. It also provides valuable health-related content through the "Health Ar
 ## Usage
 Clone the repository and open it in Android Studio.  
 
-
-
-## Setup your database
 ## Connecting Project to Your Own Firebase Account
 ### Instructions
 
