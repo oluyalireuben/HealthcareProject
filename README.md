@@ -1,15 +1,10 @@
 # `Healthcare Project`
 ## Description About the project
-This Healthcare Application is aimed at revolutionizing healthcare accessibility and convenience 
-
-for users. The contemporary healthcare landscape is marked by a growing demand for digital 
-
+This Healthcare Application is aimed at revolutionizing healthcare accessibility and convenience for users.
+The contemporary healthcare landscape is marked by a growing demand for digital 
 solutions that streamline service delivery, enhance information access, and improve overall 
-
 patient experiences. The application serves as a comprehensive platform offering users 
-
 the ability to access lab test packages, order medicines, and book appointments with specialist 
-
 doctors. It also provides valuable health-related content through the "Health Articles" section.
 
 
