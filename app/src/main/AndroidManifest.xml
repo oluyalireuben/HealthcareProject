@@ -17,6 +17,9 @@
             android:name=".DeveloperActivity"
             android:exported="false" />
         <activity
+            android:name=".RateUSActivity"
+            android:exported="false" />
+        <activity
             android:name=".AdminDashboardActivity"
             android:exported="false" />
         <activity
@@ -65,6 +68,9 @@
             android:name=".FindDoctorActivity"
             android:exported="false" />
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
@@ -72,6 +78,9 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

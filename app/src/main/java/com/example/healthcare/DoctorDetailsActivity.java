@@ -27,7 +27,7 @@ public class DoctorDetailsActivity extends AppCompatActivity {
             {
                     {"Doctor Name : Deborah Adhiambo", "Hospital Address : Kajiado", "Exp : 15yrs", "Mobile No:0721577451","2500"},
                     {"Doctor Name : Lokol Ekitela", "Hospital Address : Kabarak", "Exp : 13yrs", "Mobile No:0714228749","2000"},
-                    {"Doctor Name : Lydyah Kiplagat", "Hospital Address : Kericho", "Exp : 8yrs", "Mobile No:0790074955","1800"},
+                    {"Doctor Name : Sharon Chebet", "Hospital Address : Kericho", "Exp : 8yrs", "Mobile No:0790074955","1800"},
                     {"Doctor Name : Ballack Esuron", "Hospital Address : Transnzoia", "Exp : 13yrs", "Mobile No:0724949342","2000"},
                     {"Doctor Name : David Rimao", "Hospital Address : Lodwar", "Exp : 14yrs", "Mobile No:0769319921","2300"},
             };
@@ -49,13 +49,13 @@ public class DoctorDetailsActivity extends AppCompatActivity {
             };
     private String[][] doctor_details5 =
             {
-                    {"Doctor Name :  Kevin Elaar", "Hospital Address : Salga", "Exp : 15yrs", "Mobile No:0721577451","2500"},
+                    {"Doctor Name : Kevin Elaar", "Hospital Address : Salga", "Exp : 15yrs", "Mobile No:0721577451","2500"},
                     {"Doctor Name : Magdalene Lotwei", "Hospital Address : Mombasa", "Exp : 13yrs", "Mobile No:0714228749","2000"},
                     {"Doctor Name : Freddy Daktari", "Hospital Address : Eldoret", "Exp : 8yrs", "Mobile No:0790074955","1800"},
                     {"Doctor Name : MarryAnne Atiir", "Hospital Address : Coast", "Exp : 13yrs", "Mobile No:0724949342","2000"},
                     {"Doctor Name : Reuben Omolo", "Hospital Address : South DG", "Exp : 14yrs", "Mobile No:0769319921","2300"},
             };
-    TextView tv;
+    TextView tv, tv1;
     Button btn;
     String[][] doctor_details = {};
     HashMap<String,String> item;
@@ -67,6 +67,7 @@ public class DoctorDetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_doctor_details);
 
         tv = findViewById(R.id.textViewDDTitle);
+        tv1 = findViewById(R.id.textViewProfiles);
         btn = findViewById(R.id.buttonLDAddToCart);
 
         Intent it = getIntent();
@@ -91,6 +92,13 @@ public class DoctorDetailsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(DoctorDetailsActivity.this, FindDoctorActivity.class));
+            }
+        });
+
+        tv1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DoctorDetailsActivity.this, MainActivity.class));
             }
         });
 

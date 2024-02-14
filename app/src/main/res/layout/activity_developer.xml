@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
     android:gravity="center"
     android:background="@android:color/holo_orange_dark"
     >
@@ -13,12 +12,13 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Developer"
+        android:text="DEVELOPER"
         android:layout_marginTop="10dp"
         android:id="@+id/textView2"
         android:textSize="40dp"
         android:textColor="@color/yellowLight"
         android:textAlignment="center"
+        android:textStyle="bold"
         android:autoText="true"
       />
 
@@ -48,7 +48,7 @@
 
     <Button
         android:id="@+id/buttonbackagain"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/btn_bg"

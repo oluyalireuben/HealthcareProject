@@ -104,18 +104,4 @@
         android:textSize="20sp"
        />
 
-
-        <Button
-            android:id="@+id/buttonAbout"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginRight="32dp"
-            android:background="@drawable/btn_bg"
-            android:text="About"
-            android:textColor="#ffffff"
-             />
-
-
 </LinearLayout>

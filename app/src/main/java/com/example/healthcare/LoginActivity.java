@@ -44,7 +44,6 @@ public class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressBar);
 
-        Button aboutButton = findViewById(R.id.buttonAbout);
 
         edEmail = findViewById(R.id.editTextAppAddress);
         edPassword = findViewById(R.id.editTextLoginPassword);
@@ -55,10 +54,6 @@ public class LoginActivity extends AppCompatActivity {
 
         tv1.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, ForgotPasswordActivity.class)));
 
-        aboutButton.setOnClickListener(v -> {
-            Intent intent = new Intent(LoginActivity.this, DeveloperActivity.class);
-            startActivity(intent);
-        });
 
 
         btn.setOnClickListener(view -> {

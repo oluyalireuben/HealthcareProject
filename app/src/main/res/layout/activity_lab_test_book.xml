@@ -81,6 +81,7 @@
         android:layout_margin="12dp"
         android:layout_marginTop="324dp"
         android:text="OLUYALI HOSPITAL"
+        android:gravity="center"
         android:textColor="#fff"
         android:textSize="34sp"
         android:textStyle="bold"
