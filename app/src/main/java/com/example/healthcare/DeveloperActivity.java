@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class DeveloperActivity extends AppCompatActivity {
 
-    Button btnBack;
+    Button btnBack, btnchat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,8 @@ public class DeveloperActivity extends AppCompatActivity {
         setContentView(R.layout.activity_developer);
 
         btnBack = findViewById(R.id.buttonbackagain);
+        btnchat = findViewById(R.id.buttonChat);
+
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,6 +27,13 @@ public class DeveloperActivity extends AppCompatActivity {
             }
         });
 
+
+        btnchat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DeveloperActivity.this, Chats.class));
+            }
+        });
 
 
     }

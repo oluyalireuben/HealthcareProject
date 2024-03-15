@@ -9,8 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
-    private static int TIMMER=3000;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +16,7 @@ public class SplashScreen extends AppCompatActivity {
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+        int TIMMER = 3000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -25,7 +24,7 @@ public class SplashScreen extends AppCompatActivity {
                 startActivity(login);
                 finish();
             }
-        },TIMMER);
+        }, TIMMER);
 
 
     }

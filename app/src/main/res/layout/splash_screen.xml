@@ -4,14 +4,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/orange"
+    android:orientation="vertical"
     android:gravity="center"
     tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO OLUYALI HOSPITAL"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="@color/yellowLight"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>
 
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@drawable/hospital"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WE CURE BUT\nGOD HEALS"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="@color/yellowLight"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>
 
 
 </LinearLayout>

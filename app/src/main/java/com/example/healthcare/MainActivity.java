@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
 
 
-
         List<Item> items = new ArrayList<Item>();
         items.add(new Item("Reuben Oluyali","oluyali@kabarak.ac.ke \nExp : 15yrs\nMobile No: 0792744763\nSpecialization: Family Physician \nEducation: Harvard Medical School \nAchievements: Board Certification \nAvailability: onsite",R.drawable.oluyali));
         items.add(new Item("Cleophas Mochoge","cleomochoge@gmail.com\nExp : 13yrs\nMobile No: 0714228749\nSpecialization: Family Physician \nEducation: Kigali University \nAchievements: Clinical Excellence Awards \nAvailability: onsite",R.drawable.dokta7));
